@@ -11,14 +11,15 @@
     "deploy": "npm run sync && hexo clean && hexo g -d"
   },
   "hexo": {
-    "version": ""
+    "version": "5.1.1"
   },
   "yuqueConfig": {
     "baseUrl": "https://www.yuque.com/api/v2",
-    "login": "zhoumo",
-    "repo": "blog"
+    "login": "zhoumo-umqxh",
+    "repo": "web"
   },
   "dependencies": {
+    "global": "^4.4.0",
     "hexo": "^5.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
